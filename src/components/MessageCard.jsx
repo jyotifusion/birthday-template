@@ -13,19 +13,16 @@ function MessageCard({ isActive }) {
   const curtainHintRef = useRef(null);
   const messageContentRef = useRef(null);
 
-  const message = `[Recipient Name],
+  const message = `Suman,
 
-Your personalized birthday message goes here.
+Wishing you a day filled with love, laughter, and all the joy you bring to those around you. May this year be your best one yet, overflowing with happiness and unforgettable moments.
+Thank you for being such a wonderful friend and an incredible person. JO bhi tu life mei Karna chahti hai, wo sab mile tujhe is saal. Aur ab tu minor bhi nahi rahi terko chidha bhi nahi payenge...koi ni bs dimag se bhi mature hojaaa..aur iss adult bnne ki party pending hai beta yaad rakhiyo...
 
-You can write multiple paragraphs to express your feelings,
-share memories, and make this special day even more memorable.
-
-This template supports multiple lines and formatting,
-so feel free to customize it completely to fit your style.
+Here's to celebrating you today and always.
 
 Happy Birthday! 🎉
 
-— [Your Name]`;
+Jyoti`;
 
   // Handle page transitions
   useEffect(() => {
